@@ -222,11 +222,11 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url(../img/bg.jpg) no-repeat center center scroll; 
+	background: url(../img/DJSyloJumbotron.jpeg) no-repeat center center scroll; 
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
+	background: url(../img/DJSyloJumbotron.jpeg) no-repeat center center scroll; 
   }
 
   .map {
@@ -255,3 +255,13 @@ html,body{height:100%;}
 		padding-right: 0;
 	}
 }
+
+#galleryContainer {
+  background: #DDD;
+  max-width: 1000px;
+  max-height: 500px;
+}
+
+.item img { width: 50%; }
+
+.item.w2 { width: 25%; }

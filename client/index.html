@@ -13,6 +13,7 @@
     <!-- Add custom CSS here -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/nanogallery.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#education">Gallery</a>
+                        <a href="#gallery">Gallery</a>
                     </li>
                     <li>
                         <a href="#portfolio">Events</a>
@@ -50,7 +51,7 @@
                         <a href="#portfolio">Discography</a>
                     </li>
                     <li>
-                        <a href="#contact">Booking</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -83,6 +84,22 @@
         </div>
     </div>
     <!-- /Intro -->
+    <!-- Gallery -->
+    <div id="gallery" class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+            <div class="row">
+                            <div class="col-md-6 col-md-offset-3 text-center">
+                <div id="nanoGallery2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Gallery -->
     <!-- Services -->
     <div id="services" class="services">
         <div class="container">
@@ -269,6 +286,9 @@
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    <!-- nanoGALLERY plugin files -->
+    <script type="text/javascript" src="js/jquery.nanogallery.min.js"></script>
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling
         -->
     <script>
@@ -298,6 +318,33 @@
                     }
                 }
             });
+
+            $("#nanoGallery2").nanoGallery({
+                thumbnailWidth: 'auto',
+                thumbnailHeight: 250,
+                userID: 'derensomsanith@gmail.com',
+                kind: 'picasa',
+                album: '6020738059883313137',
+                colorSchemeViewer: 'dark',
+                thumbnailHoverEffect: [{
+                    name: 'labelAppear75',
+                    duration: 300
+                }],
+                theme: 'clean',
+                thumbnailGutterWidth: 1,
+                thumbnailGutterHeight: 1,
+                i18n: {
+                    thumbnailImageDescription: 'View Photo',
+                    thumbnailAlbumDescription: 'Open Album'
+                },
+                thumbnailLabel: {
+                    display: true,
+                    position: 'overImageOnMiddle',
+                    align: 'center'
+                },
+                photoSorting: 'random'
+            });
+
         });
     </script>
 </body>
