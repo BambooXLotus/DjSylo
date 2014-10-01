@@ -74,10 +74,10 @@
     <div id="about" class="about">
         <div class="container">
                 <div class="row">
-                    <div class="col-md-2 col-md-offset-1">
+                    <div class="col-md-6 col-md-offset-3">
                         <img class="img-circle img-responsive" src="img/portrait-sm.jpg">
                     </div>
-                    <div class="col-md-7 col-xs-12">
+                    <div class="col-md-3 col-xs-12">
                         <h3>DJ Sylo</h3>
                         <h4>Kansas City, MO</h4>
                         <p>Style: Electronic, Pop, Hip hop.</p>
@@ -151,7 +151,7 @@
     <!-- Callout -->
     <div class="callout">
         <div class="vert-text">
-            <h1>A Dramatic Text Area</h1>
+            <h1>DJ Sylo</h1>
         </div>
     </div>
     <!-- /Callout -->
@@ -334,7 +334,7 @@
                 userID: 'derensomsanith@gmail.com',
                 kind: 'picasa',
                 album: '6020738059883313137',
-                colorSchemeViewer: 'dark',
+                colorSchemeViewer: 'light',
                 thumbnailHoverEffect: [{
                     name: 'labelAppear75',
                     duration: 300
@@ -350,7 +350,9 @@
                     position: 'overImageOnMiddle',
                     align: 'center'
                 },
-                photoSorting: 'random'
+                photoSorting: 'random',
+                lazyBuild: 'loadData',
+                lazyBuildTreshold: 300
             });
 
         });
