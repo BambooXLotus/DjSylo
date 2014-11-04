@@ -121,7 +121,6 @@ h3 {
 .about {
   background: #f8bbd0;
   padding: 50px 0;
-  color: #ffffff;
 }
 /* Services */
 
@@ -260,15 +259,22 @@ body {
   width: 25%;
 }
 
+.panel-heading{
+  background-color: transparent !important;
+  border-bottom: 0px;
+}
+
 .circle-shadow{
-  box-shadow: 10px 10px 5px #888888;
+      box-shadow: 0 19px 38px rgba(0,0,0,0.30);
 }
 
     /* Card, Dialog */
     .card, .dialog {
+      border-radius: 2px;
+      border: 0px;
       position: relative;
       display: inline-block;
       vertical-align: top;
       background-color: #fff;
-      box-shadow: 0 19px 38px rgba(0,0,0,0.30);
+      box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
     }
