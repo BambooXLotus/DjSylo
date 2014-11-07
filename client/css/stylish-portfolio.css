@@ -259,8 +259,8 @@ body {
   width: 25%;
 }
 
-.panel-heading{
-  background-color: transparent !important;
+.panel-default > .panel-heading {
+  background: url(../img/card-background.jpeg);
   border-bottom: 0px;
 }
 
