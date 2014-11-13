@@ -259,11 +259,6 @@ body {
   width: 25%;
 }
 
-.panel-default > .panel-heading {
-  background: url(../img/card-background.jpeg);
-  border-bottom: 0px;
-}
-
 .circle-shadow{
       box-shadow: 0 19px 38px rgba(0,0,0,0.30);
 }
@@ -278,3 +273,33 @@ body {
       background-color: #fff;
       box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
     }
+    
+    .fixed-card{
+      width: 400px;
+      height: 400px;
+    }
+    
+    .panel-title {
+    position: absolute;
+    background: rgba(34, 34, 34, 0.6);
+    color: White;
+    padding: 5px;
+    z-index: 3;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+
+.panel-heading {
+    border-radius: 0;
+    background: #ffffff;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.stickyBottom {
+    position: absolute;
+    bottom: 0;
+}
