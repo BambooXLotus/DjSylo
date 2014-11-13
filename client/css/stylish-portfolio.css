@@ -296,11 +296,12 @@ body {
     transition: all .6s ease-in-out;
 }
 
-.panel-heading {
+.panel-default > .panel-heading {
     border-radius: 0;
-    background: #ffffff;
+    background: transparent;
     overflow: hidden;
     padding: 0px;
+    border-bottom: 0px;
 }
 
 .stickyBottom {
