@@ -279,6 +279,10 @@ body {
       height: 400px;
     }
     
+    .panel:hover .panel-title {
+    background: #e91e63;
+}
+
     .panel-title {
     position: absolute;
     background: rgba(34, 34, 34, 0.6);
@@ -302,4 +306,5 @@ body {
 .stickyBottom {
     position: absolute;
     bottom: 0;
+    left: 0;
 }
