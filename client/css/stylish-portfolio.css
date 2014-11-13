@@ -299,6 +299,12 @@ body {
 .panel-default > .panel-heading {
     border-radius: 0;
     background: transparent;
+    border: 0px;
+}
+
+.card-heading {
+    border-radius: 0;
+    background: transparent;
     overflow: hidden;
     padding: 0px;
     border-bottom: 0px;
