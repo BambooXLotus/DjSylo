@@ -304,6 +304,14 @@ body {
     border: 0px;
 }
 
+.panel-heading{
+    padding:0px  15px;
+}
+
+.panel-body{
+    padding:0px 15px;
+}
+
 .card-heading {
     border-radius: 0;
     background: transparent;
