@@ -30,6 +30,13 @@ h3 {
   font-size: 7em;
 }
 /* Side Menu */
+.nav{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 1em;
+    font-weight: 300;
+}
+
 
 #sidebar-wrapper {
   margin-right: -250px;
