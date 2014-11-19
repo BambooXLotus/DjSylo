@@ -141,7 +141,7 @@ h3 {
 
 /* Gallery */
 .gallery{
-  background: url(../img/dj_sylo_bw_gallery.jpg) no-repeat center center fixed;
+  background: #212121;
 }
 /* Services */
 .services {
