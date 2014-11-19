@@ -213,7 +213,7 @@ i.scroll:hover {
 }
 /* Responsive */
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .header {
     background: url(../img/DJSyloJumbotron.jpeg) no-repeat center center scroll;
   }
