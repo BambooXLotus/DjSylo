@@ -10,6 +10,7 @@ Contact form implemntation.
 
 Overall Layout:
 Parralax scrolling is the web design trend.
+Fix the font.
 
 Color Scheme:
 i like black and 
@@ -23,8 +24,10 @@ D1C4E9
 EDE7F6
 
 Gallery:
+G+ albums need to be set up by the user.
 
 Services:
+Need to get feed back fromt he user. or may get rid of this section.
 
 Events:
-
+update pictures and descriptions.
