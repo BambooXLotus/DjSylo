@@ -1,11 +1,11 @@
 /* Global Styles */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 h1 {
   color: #e91e63;
