@@ -12,16 +12,23 @@ h1 {
   color: #D1C4E9;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
 }
+
+h2{
+    color: #7E57C2;
+}
+
 h3 {
   color: #7E57C2;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
   font-weight: bold;
 }
+
 .vert-text {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
+
 .vert-text h1 {
   padding: 0;
   margin: 0;
