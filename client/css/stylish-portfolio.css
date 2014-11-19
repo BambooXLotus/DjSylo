@@ -187,16 +187,7 @@ i.service-icon {
 .img-portfolio {
   margin: 0 auto;
 }
-/* Call to Action */
 
-.call-to-action {
-  color: #ffffff;
-  background: #ec407a;
-  padding: 50px 0;
-}
-.call-to-action .btn {
-  margin: 10px;
-}
 /* Map */
 
 .map {
