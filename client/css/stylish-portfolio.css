@@ -141,13 +141,13 @@ h3 {
 
 /* Gallery */
 .gallery{
- background: #212121;
+  background: url(../img/dj_sylo_bw_gallery.jpg) no-repeat center center fixed;
 }
 /* Services */
 .services {
-  background: #f8bbd0;
+  background: #212121;
   padding: 50px 0;
-  color: #ffffff;
+  color: #EDE7F6;
 }
 .service-item {
   margin-bottom: 15px;
