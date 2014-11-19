@@ -1,34 +1,31 @@
 /* Global Styles */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 html,
 body {
   height: 100%;
   width: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size:16px;
+  font-size: 16px;
 }
 h1 {
   color: #D1C4E9;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
 }
-
-h2{
-    color: #7E57C2;
+h2 {
+  color: #D1C4E9;
+  font-weight: bold;
 }
-
 h3 {
   color: #7E57C2;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
   font-weight: bold;
 }
-
 .vert-text {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-
 .vert-text h1 {
   padding: 0;
   margin: 0;
@@ -37,15 +34,15 @@ h3 {
   letter-spacing: .15em;
   font-size: 7em;
 }
-
 /* Side Menu */
-.nav{
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-size: 1em;
-    font-weight: 300;
-}
 
+.nav {
+  background-color: #212121;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 1em;
+  font-weight: 300;
+}
 #sidebar-wrapper {
   margin-right: -250px;
   right: 0;
@@ -141,8 +138,12 @@ h3 {
   background: #EDE7F6;
   padding: 50px 0;
 }
-/* Services */
 
+/* Gallery */
+.gallery{
+ background: #212121;
+}
+/* Services */
 .services {
   background: #f8bbd0;
   padding: 50px 0;
@@ -277,69 +278,61 @@ body {
 .item.w2 {
   width: 25%;
 }
-
-.circle-shadow{
-      box-shadow: 0 19px 38px rgba(0,0,0,0.30);
+.circle-shadow {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30);
 }
+/* Card, Dialog */
 
-    /* Card, Dialog */
-    .card, .dialog {
-      border-radius: 2px;
-      border: 0px;
-      position: relative;
-      display: inline-block;
-      vertical-align: top;
-      background-color: #fff;
-      box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-    }
-    
-    .fixed-card{
-      max-width: 400px;
-      max-height: 400px;
-    }
-    
-    .panel:hover .panel-title {
-    background: #e91e63;
+.card,
+.dialog {
+  border-radius: 2px;
+  border: 0px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
 }
-
-    .panel-title {
-    position: absolute;
-    background: rgba(34, 34, 34, 0.6);
-    color: White;
-    padding: 5px;
-    z-index: 3;
-    -webkit-transition: all .6s ease-in-out;
-    -moz-transition: all .6s ease-in-out;
-    -o-transition: all .6s ease-in-out;
-    -ms-transition: all .6s ease-in-out;
-    transition: all .6s ease-in-out;
+.fixed-card {
+  max-width: 400px;
+  max-height: 400px;
 }
-
+.panel:hover .panel-title {
+  background: #e91e63;
+}
+.panel-title {
+  position: absolute;
+  background: rgba(34, 34, 34, 0.6);
+  color: White;
+  padding: 5px;
+  z-index: 3;
+  -webkit-transition: all .6s ease-in-out;
+  -moz-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  -ms-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
 .panel-default > .panel-heading {
-    border-radius: 0;
-    background: transparent;
-    border: 0px;
+  border-radius: 0;
+  background: transparent;
+  border: 0px;
 }
-
-.panel-heading{
-    padding:0px  15px;
+.panel-heading {
+  padding: 0px 15px;
 }
-
-.panel-body{
-    padding:0px 15px;
-    padding-bottom: 20px;
+.panel-body {
+  padding: 0px 15px;
+  padding-bottom: 20px;
 }
-
 .card-heading {
-    border-radius: 0;
-    background: transparent;
-    overflow: hidden;
-    padding: 0px;
-    border-bottom: 0px;
+  border-radius: 0;
+  background: transparent;
+  overflow: hidden;
+  padding: 0px;
+  border-bottom: 0px;
 }
-
 .stickyBottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
