@@ -81,6 +81,14 @@ a:active {
   font-size: 1.2em;
   font-weight: 400;
 }
+
+.navbar-brand{
+    color: #D1C4E9;
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
+  font-weight: 300;
+  letter-spacing: .1em;
+  
+}
 #sidebar-wrapper {
   margin-right: -250px;
   right: 0;
@@ -351,10 +359,12 @@ body {
   padding: 0px 15px;
 }
 .panel-body {
+  color: #D1C4E9;
   padding: 0px 15px;
   padding-bottom: 30px;
   background: #212121;
 }
+
 .card-heading {
   border-radius: 0;
   background: transparent;
