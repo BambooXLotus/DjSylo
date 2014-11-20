@@ -7,7 +7,11 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
+}
+h1, .h1, h2, .h2, h3, .h3{
+  margin-top:10px;
+  margin-bottom:5px;
 }
 h1,
 h2 {
@@ -21,17 +25,33 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   color: #7E57C2;
   font-weight: 700;
+  text-transform: uppercase;
+  font-size: 35px;
+  letter-spacing: -.04em;
 }
 h4{
   font-family: 'Source Sans Pro', sans-serif;
   color: #7E57C2;
   font-weight: 400;
+  text-transform: uppercase;
+  font-size:21px;
+}
+
+hr{
+    border-color: #D1C4E9;
+}
+ul
+{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
 }
 .vert-text {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
+
 .vert-text h1 {
   padding: 0;
   margin: 0;
@@ -307,7 +327,7 @@ body {
   max-height: 400px;
 }
 .panel:hover .panel-title {
-  background: #e91e63;
+  background: #4527A0;
 }
 .panel-title {
   position: absolute;
@@ -331,7 +351,7 @@ body {
 }
 .panel-body {
   padding: 0px 15px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .card-heading {
   border-radius: 0;
