@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#top">DJ Sylo</a>
+                <a id="responsive-text" class="navbar-brand" href="#top">DJ Sylo</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -189,9 +189,9 @@
                         </div>
                         <div class="panel-body">
                             <h4>November 26th Wednesday</h4>
-                            <p>Bottomless Cup 9PM-12PM</p>
-                            <p>$2 Bottles 9PM-12AM</p>
-                            <p>$2 Tequila & Fireball all night</p>
+                            <span>Bottomless Cup 9PM-12PM</span>
+                            <span>$2 Bottles 9PM-12AM</span>
+                            <span>$2 Tequila & Fireball all night</span>
                         </div>
                     </div>
                 </div>
@@ -310,7 +310,7 @@
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-
+    <script src="js/jquery.fittext.js"></script>
     <!-- nanoGALLERY plugin files -->
     <script type="text/javascript" src="js/jquery.nanogallery.min.js"></script>
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling
@@ -369,6 +369,8 @@
                 lazyBuild: 'none',
                 lazyBuildTreshold: 300
             });
+            
+            $("#responsive_headline").fitText(0.8);
         });
 
         (function(i, s, o, g, r, a, m) {
