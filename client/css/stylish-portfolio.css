@@ -9,9 +9,14 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
-h1, .h1, h2, .h2, h3, .h3{
-  margin-top:10px;
-  margin-bottom:5px;
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 h1,
 h2 {
@@ -29,34 +34,34 @@ h3 {
   font-size: 35px;
   letter-spacing: -.04em;
 }
-h4{
+h4 {
   font-family: 'Source Sans Pro', sans-serif;
   color: #7E57C2;
   font-weight: 400;
   text-transform: uppercase;
-  font-size:21px;
+  font-size: 21px;
 }
-
-hr{
-    border-color: #D1C4E9;
+hr {
+  border-color: #D1C4E9;
 }
-ul
-{
-    list-style-type: none;
-    margin:0px;
-    padding:0px;
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 .vert-text {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-
 .vert-text h1 {
   padding: 0;
   margin: 0;
   font-size: 10em;
   font-weight: 300;
+}
+.dark-bg {
+  background-color: #212121;
 }
 /* Link Styles */
 
@@ -81,13 +86,12 @@ a:active {
   font-size: 1.2em;
   font-weight: 400;
 }
-
-.navbar-brand{
-    color: #D1C4E9;
+.navbar-brand {
+  color: #D1C4E9;
+  font-family: 'Open Sans', sans-serif;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
-  font-weight: 300;
-  letter-spacing: .1em;
-  
+  font-weight: 400;
+  letter-spacing: -.1em;
 }
 #sidebar-wrapper {
   margin-right: -250px;
@@ -364,7 +368,6 @@ body {
   padding-bottom: 30px;
   background: #212121;
 }
-
 .card-heading {
   border-radius: 0;
   background: transparent;
