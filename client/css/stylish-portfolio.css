@@ -6,7 +6,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 h1, h2 {
@@ -23,17 +23,15 @@ h3 {
   font-weight: bold;
 }
 .vert-text {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 .vert-text h1 {
-  padding: 0;
-  margin: 0;
-  font-size: 4.5em;
-  font-weight: 300;
-  letter-spacing: .15em;
-  font-size: 7em;
+    padding: 0;
+    margin: 0;
+    font-size: 5.5em;
+    font-weight: 100;
 }
 /* Link Styles */
 
@@ -229,7 +227,7 @@ i.scroll:hover {
 }
 /* Responsive */
 
-@media (max-width: 868px) {
+@media (max-width: 1200px) {
   .header {
     background: url(../img/DJSyloJumbotron.jpeg) no-repeat center center scroll;
   }
