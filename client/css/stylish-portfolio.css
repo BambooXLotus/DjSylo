@@ -8,17 +8,15 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
 }
-h1 {
+
+h1, h2 {
   color: #D1C4E9;
-  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: .1em;
 }
-h1 a:link {
-  text-decoration: none;
-}
-h2 {
-  color: #D1C4E9;
-  font-weight: bold;
-}
+
 h3 {
   color: #7E57C2;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
