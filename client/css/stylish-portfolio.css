@@ -51,13 +51,14 @@ a:active {
 }
 /* Side Menu */
 
-.nav {
-  background-color: #212121;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-size: 1em;
-  font-weight: 300;
+.nav{
+    background-color: #212121;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 1.2em;
+    font-weight: 400;
 }
+
 #sidebar-wrapper {
   margin-right: -250px;
   right: 0;
