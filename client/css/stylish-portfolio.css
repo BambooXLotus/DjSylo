@@ -1,16 +1,19 @@
 /* Global Styles */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400);
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
 }
 h1 {
   color: #D1C4E9;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
+}
+h1 a:link {
+  text-decoration: none;
 }
 h2 {
   color: #D1C4E9;
@@ -33,6 +36,20 @@ h3 {
   font-weight: 300;
   letter-spacing: .15em;
   font-size: 7em;
+}
+/* Link Styles */
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
 }
 /* Side Menu */
 
@@ -138,12 +155,13 @@ h3 {
   background: #EDE7F6;
   padding: 50px 0;
 }
-
 /* Gallery */
-.gallery{
+
+.gallery {
   background: #212121;
 }
 /* Services */
+
 .services {
   background: #212121;
   padding: 50px 0;
@@ -187,7 +205,6 @@ i.service-icon {
 .img-portfolio {
   margin: 0 auto;
 }
-
 /* Map */
 
 .map {
@@ -321,6 +338,18 @@ body {
   overflow: hidden;
   padding: 0px;
   border-bottom: 0px;
+}
+
+.fill {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden
+}
+.fill img {
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%
 }
 .stickyBottom {
   position: absolute;
