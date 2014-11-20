@@ -171,7 +171,7 @@ a:active {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/DJSyloJumbotron.jpeg) no-repeat center center fixed;
+  background: url(../img/dj_hero.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -342,18 +342,27 @@ body {
 .panel:hover .panel-title {
   background: #4527A0;
 }
+
 .panel-title {
   position: absolute;
-  background: rgba(34, 34, 34, 0.6);
   color: White;
   padding: 5px;
   z-index: 3;
-  -webkit-transition: all .6s ease-in-out;
-  -moz-transition: all .6s ease-in-out;
-  -o-transition: all .6s ease-in-out;
-  -ms-transition: all .6s ease-in-out;
-  transition: all .6s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
+
+.panel-title{
+    background: rgba(34, 34, 34, 0.6);
+}
+
+.panel-footer{
+  
+}
+
 .panel-default > .panel-heading {
   border-radius: 0;
   background: transparent;
