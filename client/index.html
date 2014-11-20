@@ -7,6 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>DJ Sylo</title>
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600' rel='stylesheet' type='text/css'>
+
     <!-- Bootstrap core CSS
         -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -188,10 +191,12 @@
                             </a>
                         </div>
                         <div class="panel-body">
-                            <h4>November 26th Wednesday</h4>
-                            <span>Bottomless Cup 9PM-12PM</span>
-                            <span>$2 Bottles 9PM-12AM</span>
-                            <span>$2 Tequila & Fireball all night</span>
+                            <h4>nov 26/2014</h4>
+                            <ul>
+                                <li>Bottomless Cup 9PM-12PM</li>
+                                <li>$2 Bottles 9PM-12AM</li>
+                                <li>$2 Tequila & Fireball all nigh</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -370,8 +375,11 @@
                 lazyBuild: 'none',
                 lazyBuildTreshold: 300
             });
-            
-            $("#responsive-text").fitText(0.5, { minFontSize: '20px', maxFontSize: '140px' });
+
+            $("#responsive-text").fitText(0.5, {
+                minFontSize: '20px',
+                maxFontSize: '140px'
+            });
         });
 
         (function(i, s, o, g, r, a, m) {
