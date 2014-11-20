@@ -218,6 +218,7 @@ i.service-icon {
 /* Portfolio */
 
 .portfolio {
+    background: #212121;
   padding: 50px 0;
 }
 .portfolio-item {
@@ -352,6 +353,7 @@ body {
 .panel-body {
   padding: 0px 15px;
   padding-bottom: 30px;
+  background: #212121;
 }
 .card-heading {
   border-radius: 0;
