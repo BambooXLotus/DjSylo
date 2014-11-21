@@ -85,31 +85,49 @@ a:active {
   font-size: 1.2em;
   font-weight: 400;
 }
-
-.navbar-deren{
+.navbar-deren {
   background-color: rgba(34, 34, 34, 0.6);
 }
-
 .navbar-deren .navbar-nav > li > a {
-    color: #EDE7F6;
+  color: #EDE7F6;
 }
 .navbar-deren .navbar-nav > li > a:hover,
 .navbar-deren .navbar-nav > li > a:focus {
-    color: #333;
+  color: #333;
 }
-.navbar-deren .navbar-nav > .active > a, 
-.navbar-deren .navbar-nav > .active > a:hover, 
+.navbar-deren .navbar-nav > .active > a,
+.navbar-deren .navbar-nav > .active > a:hover,
 .navbar-deren .navbar-nav > .active > a:focus {
-    color: #212121;
-    background-color: #D1C4E9;
+  color: #212121;
+  background-color: white;
 }
-.navbar-deren .navbar-nav > .open > a, 
-.navbar-deren .navbar-nav > .open > a:hover, 
+.navbar-deren .navbar-nav > .open > a,
+.navbar-deren .navbar-nav > .open > a:hover,
 .navbar-deren .navbar-nav > .open > a:focus {
-    color: #212121;
-    background-color: #D1C4E9;
+  color: #212121;
+  background-color: #D1C4E9;
 }
+/* mobile version */
 
+.navbar-deren .navbar-toggle {
+  border-color: white;
+}
+.navbar-deren .navbar-toggle:hover,
+.navbar-deren .navbar-toggle:focus {
+  background-color: white;
+}
+.navbar-deren .navbar-toggle .icon-bar {
+  background-color: #CCC;
+}
+@media (max-width: 767px) {
+  .navbar-deren .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-deren .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-deren .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+  }
+}
 .navbar-brand {
   height: 100%;
   background-color: #212121;
@@ -257,7 +275,7 @@ i.service-icon {
 
 .portfolio {
   background-size: cover;
-  -webkit-background-origin:border;
+  -webkit-background-origin: border;
   background-image: url(../svg/purp-tri-bg.svg);
   padding: 50px 0;
 }
@@ -271,7 +289,7 @@ i.service-icon {
 
 .map {
   height: 500px;
-  background-color:blue;
+  background-color: blue;
 }
 /* Footer */
 
@@ -366,18 +384,16 @@ body {
 }
 .fixed-card {
   max-width: 400px;
-
 }
 .panel:hover .panel-title {
   background: #4527A0;
 }
-
-.panel:hover .panel-bottom{
+.panel:hover .panel-bottom {
   color: #212121;
   background: #EDE7F6;
 }
-
-.panel-title, .panel-bottom {
+.panel-title,
+.panel-bottom {
   position: absolute;
   color: White;
   padding: 5px;
@@ -388,17 +404,14 @@ body {
   -ms-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-
-.panel-title{
-    background: rgba(34, 34, 34, 0.6);
+.panel-title {
+  background: rgba(34, 34, 34, 0.6);
 }
-
-.panel-bottom{
+.panel-bottom {
   background: #4527A0;
-  margin:0px;
+  margin: 0px;
   font-size: 16px;
 }
-
 .panel-default > .panel-heading {
   border-radius: 0;
   background: transparent;
@@ -413,12 +426,11 @@ body {
   padding-bottom: 30px;
   background: #212121;
 }
-
-.panel-body h3, h4{
+.panel-body h3,
+h4 {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-
 .card-heading {
   border-radius: 0;
   background: transparent;
