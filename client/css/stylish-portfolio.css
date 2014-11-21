@@ -80,13 +80,39 @@ a:active {
 /* Side Menu */
 
 .nav {
-  background-color: #212121;
   text-transform: uppercase;
   letter-spacing: .2em;
   font-size: 1.2em;
   font-weight: 400;
 }
+
+.navbar-deren{
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+.navbar-deren .navbar-nav > li > a {
+    color: #EDE7F6;
+}
+.navbar-deren .navbar-nav > li > a:hover,
+.navbar-deren .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-deren .navbar-nav > .active > a, 
+.navbar-deren .navbar-nav > .active > a:hover, 
+.navbar-deren .navbar-nav > .active > a:focus {
+    color: #212121;
+    background-color: #D1C4E9;
+}
+.navbar-deren .navbar-nav > .open > a, 
+.navbar-deren .navbar-nav > .open > a:hover, 
+.navbar-deren .navbar-nav > .open > a:focus {
+    color: #212121;
+    background-color: #D1C4E9;
+}
+
 .navbar-brand {
+  height: 100%;
+  background-color: #212121;
   color: #D1C4E9;
   font-family: 'Open Sans', sans-serif;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.45);
@@ -245,6 +271,7 @@ i.service-icon {
 
 .map {
   height: 500px;
+  background-color:blue;
 }
 /* Footer */
 
