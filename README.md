@@ -1,3 +1,6 @@
+https://trello.com/b/d6nNTslu/dj-sylo
+
+
 TODO:
 Event's should go to the actual event page on facebook ect.
 
@@ -42,4 +45,4 @@ Contact:
 Contact form needs to be implemented.
 
 Update:
-Deren S - 11/20/2014
+Deren S - 11/21/2014
